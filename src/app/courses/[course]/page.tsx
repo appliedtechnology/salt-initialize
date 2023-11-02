@@ -11,7 +11,9 @@ export default function course() {
           <li>Advanced</li>
         </ul>
       </div>
-      <Link href="/lessons/js-ts/overview">Start First Lesson</Link>
+      <Link href="/lessons/js-ts/overview" className="border-2 p-2">
+        Start First Lesson
+      </Link>
     </main>
   );
 }
