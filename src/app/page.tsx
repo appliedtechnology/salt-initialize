@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-5xl">SALT Initialize</h1>
+      <h1 className="text-5xl">
+        <Link href="/begin">SALT Initialize</Link>
+      </h1>
     </main>
   );
 }
