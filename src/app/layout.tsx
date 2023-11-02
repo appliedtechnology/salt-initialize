@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SALT Initializer",
-  description: "SALT Initializer",
+  title: "SALT Initialize",
+  description: "SALT Initialize",
 };
 
 export default function RootLayout({
